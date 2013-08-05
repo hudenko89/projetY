@@ -1,0 +1,387 @@
+*{
+    font-size: 12px;
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.header, .content, .menu, .menuWrapper, .line, .off{
+    min-width: 900px;
+}
+
+.header, .content, .menu, .off{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 100px;
+}
+
+.content{
+    height: 1000px;
+}
+
+.menu{
+    text-align: center;
+}
+
+.menuWrapper{
+    background:#2D532E;
+}
+
+.menuHeadings{
+    font-size: 0;
+}
+.menuItems{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+}
+
+.menuItems:hover{
+    background: #7BA17C;
+    color: #000;
+    cursor: pointer;
+}
+
+.arrowDown{
+    vertical-align:middle;
+}
+
+.line{
+    height: 10px;
+    border-bottom: 1px solid #aaa;
+}
+
+.off{
+    background: #001665;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.offP{
+    display: inline;
+    color: #fff;
+}
+
+.contentWrapper{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.galleryWrapper, .descWrapper{
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mainPic{
+    width: 205px;
+    height: 335px;
+    background-image: url('../image/mainPic.png');
+    margin: 0 auto;
+}
+.clickToZoom, .social{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.small{
+    display: inline-block;
+    color: #444;
+    font-size: 10px;
+}
+
+.descWrapper{
+    margin-left: 30px;
+    text-align: left;
+}
+
+.descHeader1, .descHeader2, .descHeader3, .descHeader4, .descHeader5, .descHeader6{
+    font-size: 15px;
+    border-bottom: 1px dotted #888;
+    padding: 10px 0;
+}
+
+.sale{
+    float: left;
+}
+
+.saleA{
+    color: #000;
+}
+
+.orange{
+    color: #FE5400;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.descA{
+    color: #000;
+}
+
+.smalPic{
+    display: inline-block;
+    width: 45px;
+    height: 25px;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+.smalPic:hover{
+    border: 2px solid #999;
+}
+
+#smalPic1{
+    background: url(../image/smallPic1.png);
+}
+
+#smalPic2{
+    background: url(../image/smallPic2.png);
+}
+
+#smalPic3{
+    background: url(../image/smallPic3.png);
+}
+
+.sizesItems{
+    display: inline-block;
+    width: 45px;
+    height: 15px;
+    border: 2px solid #aaa;
+}
+
+.sizesItems:hover, .add:hover{
+    border: 2px solid #555;
+    cursor: pointer;
+}
+
+.sz{
+    text-align: center;
+}
+
+.add, .input, .Avail{
+    display: inline-block;
+}
+
+.add{
+    width: 40px;
+    border: 2px solid #aaa;
+    text-align: center;
+}
+
+.inpT{
+   width: 25px;
+   text-align: center;
+}
+
+.addToCart{
+    width:69%;
+    background: #E45E0A;
+    color: #fff;
+    padding: 5px;
+}
+
+.addToWish{
+
+    border: 1px solid #bbb;
+    background: #EDEBDE;
+    padding: 5px;
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.addToWish:hover{
+    background: #777;
+    color: #fff;
+}
+
+
+.opacity{
+    opacity: .5;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.mail{
+    vertical-align: middle;
+}
+
+.mailAsk{
+    font-size: 10px;
+}
+
+.select{
+    padding:5px;
+    border: 1px solid #bbb;
+}
+
+.email{
+    width: 25%;
+    padding: 5px;
+    border: 1px solid #bbb;
+}
+
+.sign{
+    background: #E45E0A;
+    color: #fff;
+    padding: 5px;
+}
+
+.emailMe{
+    text-align: center;
+}
+
+.myUpdates{
+    margin-bottom: 10px;
+}
+
+.privacy{
+    margin-top: 10px;
+    text-align: right;
+}
+
+.ratingWrapper{
+    margin-top: 50px;
+}
+
+.header1, .header2, .header3, .header4, .header5{
+    display: inline-block;
+    width: 60px;
+    border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.wrtReview{
+    border-top: 1px solid #aaa;
+    border-bottom: 1px dotted #aaa
+}
+
+.left{
+    text-align: left;
+    display: inline-block;
+    width: 50%;
+    margin: 10px 0;
+}
+
+.right{
+  
+    text-align: right;
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+}
+
+.wrtRev{
+    border: 1px solid #bbb;
+    padding: 0 10px;
+}
+
+.revWrapper{
+    text-align: center;
+}
+
+.revLeft, .revRight{
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+.revLeft{
+    width: 300px;
+}
+
+.revRight{
+    width: 550px;
+}
+
+.hrefs, .grafs{
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.graf1{
+    width: 100px;
+    height: 20px;
+    background: #DE5401;
+    margin: 8px 0 0 40px;
+}
+
+.graf2{
+    width: 30px;
+    height: 20px;
+    background: #5A574A;
+    margin: 10px 0 0 40px;
+}
+
+.starsHrefs{
+    display: block;
+    color: #000;
+    margin: 10px 0;
+}
+
+.most{
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+}
+
+#TP{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.marmot{
+    font-weight: bold;
+}
+
+.authrd{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 10px;
+    margin: 5px 0;
+    color: #aaa;
+}
+
+.flagThumb{
+    padding: 20px 0;
+}
+
+.flag, .thumb{
+    display: inline-block;
+}
+
+.flagImg, .thumbImg, .flagA{
+    vertical-align: middle;
+}
+
+.flagA{
+    color: #aaa;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.overall{
+    text-align: left;
+}
+
+.ital{
+    font-style: italic;
+}
+
+.reviewBox{
+    text-align: left;
+    margin-top: 40px;
+}
