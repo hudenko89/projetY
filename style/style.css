@@ -24,7 +24,7 @@
 }
 
 .menu{
-    text-align: center;
+    text-align: justify;
 }
 
 .menuWrapper{
@@ -384,4 +384,86 @@
 .reviewBox{
     text-align: left;
     margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px dotted #aaa;
+}
+
+.header{
+    text-align: center;
+}
+
+.save70Wrapper, .headerSearchWrapper{
+    height: 90px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+}
+
+.save70Wrapper{
+    width: 60%;
+}
+
+.headerSearchWrapper{
+    width: 35%;
+}
+
+.save70Img{
+    width: 212px;
+    height: 43px;
+    background: url(../image/save.jpg);
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.searchButton{
+    background: url(../image/searchHeader.png) no-repeat;
+    width: 36px;
+    height: 34px;
+    vertical-align: middle;
+    border: none;
+}
+
+.searchInput, .srcInput{
+    border: none;
+    color: #DF4D00;
+    width: 210px;
+}
+
+.headerSearch{
+    display: inline-block;
+    border: 3px double #bbb;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 25px 10px 0 0;
+}
+
+.searchBoxLeft{
+    width: 625px;
+    display: inline-block;
+    text-align: left;
+}
+
+.searchBoxRight{
+    display: inline-block;
+    text-align: right;
+}
+
+.searchBox{
+    text-align: left;
+    margin: 40px 0;
+}
+
+.srcSearch{
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.srcButton{
+    width: 22px;
+    height: 22px;
+    background: url(../image/search.png) no-repeat;
+    vertical-align: middle;
+    border: none;
 }
